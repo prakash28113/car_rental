@@ -42,7 +42,7 @@ export function Login() {
         <div>
           
           <div className="flex justify-center">
-            <img src="./rent.jpeg" alt="Car Rental" className="h-32 w-auto mb-6 rounded-md shadow-md" />
+            <img src={import.meta.env.BASE_URL + 'rent.jpeg'} alt="Car Rental" className="h-32 w-auto mb-6 rounded-md shadow-md" />
           </div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
             Car Rental Management
